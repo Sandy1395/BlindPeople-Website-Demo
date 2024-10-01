@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to announce page name
     function announcePageName() {
-        msg.text = "You are on the Home Page of KJ Systems India Private Limited.";
+        msg.text = "You are on the Home Page of SP Systems India Private Limited.";
         speechSynthesis.speak(msg);
     }
 
     // Function to announce page content
     function announcePageContent() {
-        msg.text = "KJ Systems India Private Limited is a healthcare product-based software company, founded in 2008 by Dr. Kumara Prathipati and Dr. Joseph Reddy.";
+        msg.text = "SP Systems India Private Limited is a software company, founded in 2017 by Sandip Purohit";
         speechSynthesis.speak(msg);
     }
 
